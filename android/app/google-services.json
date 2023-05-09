@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "454353950142",
+    "project_id": "group-chat-df2bc",
+    "storage_bucket": "group-chat-df2bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454353950142:android:d9cead7fac2d4273f595ef",
+        "android_client_info": {
+          "package_name": "com.yash.group_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454353950142-23i3v1agb4a4vbd3v4g53gb58ivsktqr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIa1lLjgRx0Q2dYRjNdyCvgMS5oxuRUDQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454353950142-23i3v1agb4a4vbd3v4g53gb58ivsktqr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
