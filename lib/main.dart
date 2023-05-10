@@ -3,8 +3,14 @@ import 'package:group_chat/screens/welcome_screen.dart';
 import 'package:group_chat/screens/login_screen.dart';
 import 'package:group_chat/screens/registration_screen.dart';
 import 'package:group_chat/screens/chat_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() => runApp(GroupChat());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp();
+  runApp(GroupChat());
+}
 
 class GroupChat extends StatelessWidget {
   @override
